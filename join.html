@@ -1,85 +1,94 @@
-<head>
+type="button">Join</button>
+  <head>
   
-    <!-- Core Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Core Bootstrap CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+
+<!-- Grid System Only -->
+<link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+
+<!-- Reboot Styles (Normalize browser defaults) -->
+<link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+
+<!-- Utilities Only -->
+<link rel="stylesheet" href="css/bootstrap-utilities.min.css" />
+
+<!-- Right-to-Left Support -->
+<link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+<link rel="stylesheet" href="css/bootstrap-grid.rtl.min.css" />
+<link rel="stylesheet" href="css/bootstrap-reboot.rtl.min.css" />
+<link rel="stylesheet" href="css/bootstrap-utilities.rtl.min.css" />
+
+  <!-- JS Files from LifeTech -->
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.esm.js"></script>
+<script src="js/bootstrap.esm.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
   
-  <!-- Grid System Only -->
-  <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
-  
-  <!-- Reboot Styles (Normalize browser defaults) -->
-  <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
-  
-  <!-- Utilities Only -->
-  <link rel="stylesheet" href="css/bootstrap-utilities.min.css" />
-  
-  <!-- Right-to-Left Support -->
-  <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
-  <link rel="stylesheet" href="css/bootstrap-grid.rtl.min.css" />
-  <link rel="stylesheet" href="css/bootstrap-reboot.rtl.min.css" />
-  <link rel="stylesheet" href="css/bootstrap-utilities.rtl.min.css" />
-    
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Join</title>
-    <link rel="icon" type="image/x-icon" href="images/lifetech-logo.ico">
-    <link rel="stylesheet" href="style.css" />
-  
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
-  
-  <style>
-    h1 {
-      font-family: 'Press Start 2P', monospace;
-      font-weight:100;
-    }
-  
-    #match {
-      background-color:#2A2B35;
-    }
-  
-  button {
-      background-color: #2A2B35;
-      color: #F0F0F0;
-      font-family: 'DM Sans', sans-serif!important;
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="icon" type="image/x-icon" href="images/lifetech-logo.ico">
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+<style>
+  h1 {
+    font-family: 'Press Start 2P', monospace;
+    font-weight:100;
   }
-  
-  body {
-      background-color: #2A2B35;
-      color: #F0F0F0;
-      font-family: 'Tahoma', sans-serif;
-      }
-  .btn-join {
-      background-color: #00BFA6;
-      color: white;
-      font-weight: bold;
-      border: none;
-      padding: 0.75rem 1.25rem;
-      border-radius: 8px; 
-      } 
-  .btn-join:hover {
-      background-color: #00997F;
-      }
-  </style>
-    
-  <nav class="navbar bg-body-dark" id="match">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/LIFETECH.png" alt="Logo" width="96" height="96" class="d-inline-block align-text-top">
-      </a>
-      <form class="container-fluid justify-content-start">
-      <button class="btn btn-sm btn-outline-secondary" type="button"><a href="index.html">Home</a></button>
-      <button class="btn btn-sm btn-outline-secondary" type="button"><a href="about-us.html">About</a></button>
-      <button class="btn btn-outline-success me-2" type="button">Join</button>
-  
-    </form>
+
+  #match {
+    background-color:#2A2B35;
+  }
+
+</style>
+
+<nav class="navbar navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Navigate</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="join.html">Join</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+      </div>
     </div>
-  </nav>
-  
-  
-  </head>
+  </div>
+</nav>
+<br>
+<br>
+
+
+</head>
   <body>
     <div class="container py-5">
       <header class="text-center mb-5">
